@@ -1,0 +1,26 @@
+// courses-list.component.scss
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: burlywood;
+    border: 1px solid burlywood;
+    margin-bottom: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f18686;
+    }
+  }
+  

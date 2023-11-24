@@ -1,0 +1,30 @@
+table,th ,td {
+    border: 1px solid black;
+}
+button {
+    margin-left: 1rem;
+    display: flex;
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+
+    margin-bottom: 20px;
+    margin-right: 1rem;
+    &:hover {
+        background-color: green;
+    }
+}
+form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    // margin-top: 20px;
+    // margin-bottom: 20px;
+
+}

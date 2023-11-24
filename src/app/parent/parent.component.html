@@ -1,0 +1,26 @@
+
+<!-- parent.component.html -->
+<!-- <app-child 
+    (messageFormChild)="getMessage($event)">
+</app-child>
+<div>
+    <h3>this is parent component</h3>
+    <h4 class="child-message">{{messageFromChild}}</h4>
+</div>
+
+<h2>Two-Way Binding Example</h2>
+<input [(ngModel)]="message" placeholder="Enter message">
+<p>{{ message }}</p> -->
+
+<!-- สร้างตัวแปร paragraphVisible -->
+<div >
+    <p *ngIf="paragraphVisible">paragraph 1</p>
+    <p *ngIf="!paragraphVisible">paragraph 2</p>
+</div>
+
+<!-- ใช้ *ngFor เพื่อวนลูปข้อมูลใน fruits -->
+<ul>
+    <li *ngFor="let fruit of fruits; let i = index">
+        {{ fruit.name }} (Index: {{ i }})</li>
+  </ul>
+  

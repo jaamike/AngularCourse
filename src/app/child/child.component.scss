@@ -1,0 +1,20 @@
+// child.component.scss
+h1 {
+    font-size: 24px;
+    color: #007bff; // Blue color
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #28a745; // Green color
+    color: #fff; // White color
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #218838; // Darker green on hover
+  }
+  

@@ -1,0 +1,43 @@
+<form [formGroup]="myFormGroup" (ngSubmit)="onSubmit()">
+  <label for="username">Username:</label>
+  <input type="text" id="username" formControlName="username">
+  <div *ngIf="myFormGroup.get('username')?.hasError('required')"
+  class="red">
+  Username is required.
+  </div>
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" formControlName="password">
+  <div *ngIf="myFormGroup.get('password')?.hasError('required')"
+  class="red">
+    Password is required.
+  </div>
+
+  <button type="submit" [disabled]="myFormGroup.invalid">Submit</button>
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <form [formGroup]="myFormGroup" (ngSubmit)="onSubmit()">
+  <label for="username">Username:</label>
+  <input type="text" id="username" formControlName="username">
+
+  <label for="password">Password:</label>
+  <input type="password" id="password" formControlName="password">
+
+  <button type="submit">Submit</button>
+</form>
+
+ -->
+

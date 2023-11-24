@@ -1,0 +1,47 @@
+/* app.component.scss */
+
+div {
+    text-align: center;
+    margin-top: 20px;
+  
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+      color: #333; /* Dark gray text color */
+    }
+  
+    button {
+      font-size: 1em;
+      margin: 5px;
+      padding: 8px 12px;
+      cursor: pointer;
+  
+      &.increment {
+        background-color: #4CAF50; /* Green */
+        color: white;
+  
+        &:hover {
+          background-color: #45a049; /* Darker green on hover */
+        }
+      }
+  
+      &.decrement {
+        background-color: #FF6347; /* Red */
+        color: white;
+  
+        &:hover {
+          background-color: #CC4A3C; /* Darker red on hover */
+        }
+      }
+  
+      &.reset {
+        background-color: #4169E1; /* Royal Blue */
+        color: white;
+  
+        &:hover {
+          background-color: #2E4482; /* Darker blue on hover */
+        }
+      }
+    }
+  }
+  

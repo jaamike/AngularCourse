@@ -1,0 +1,10 @@
+<h2>Item Details (itemDetails$):</h2>
+<ul>
+  <li *ngFor="let detail of itemDetails$ | async">{{ detail }}</li>
+</ul>
+
+<h2>Item Details (latestItemDetails$):</h2>
+<p>{{ latestItemDetails$ | async }}</p>
+
+
+

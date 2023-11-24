@@ -1,0 +1,10 @@
+
+<h2>Courses List</h2>
+<ul>
+  <li *ngFor="let course of courses" (click)="goToDetail(course.id)">
+    {{ course.name }}
+  </li>
+</ul>
+
+
+
